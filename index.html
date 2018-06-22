@@ -1,31 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>New York Times Search Web Application</title>
+    <title>New York Times Search</title>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500|Sigmar+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 
 <body>
 
-    <div class="jumbotron jumbotron-fluid" id="header">
-        <div class="container">
-            <h1 class="display-3"><img src="assets/images/newspapericon.png" id="icon">New York Times Search</h1>
+    <header class="nytHeader">
+        <div class="jumbotron">
+            <h1 class="display-4">New York Times Search</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h5 class="card-header">
+                <i class="fas fa-newspaper"></i>
+                Search Parameters
+            </h5>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="searchInput">Search Term</label>
+                        <input type="searchTerm" class="form-control" id="searchInput" placeholder="Search for articles here...">
+                    </div>
+                    <div class="form-group">
+                        <label for="recordsInput">Number of Records to Retrieve</label>
+                        <select class="form-control" id="recordsInput">
+                            <option>5</option>
+                            <option>10</option>
+                            <option>15</option>
+                            <option>20</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Start Year (Optional)</label>
+                        <input type="startYear" class="form-control" id="startInput" placeholder="Add a Start Year...">
+                    </div>
+                    <div class="form-group">
+                        <label for="endtInput">End Year (Optional)</label>
+                        <input type="endYear" class="form-control" id="endInput" placeholder="Add an End Year...">
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg" id="searchbutton">
+                        <i class="fas fa-search"></i>
+                        Search
+                    </button>
+                    <button type="button" class="btn btn-primary btn-lg" id="clearbutton">
+                        <i class="fas fa-trash"></i>
+                        Clear Results
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <div class="container">
+        <div class="card">
+            <h5 class="card-header">
+                <i class="fas fa-star"></i>
+                Top Articles
+            </h5>
+            <div class="card-body">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                            content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
 
 </html>
