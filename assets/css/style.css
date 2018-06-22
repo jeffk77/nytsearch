@@ -22,58 +22,12 @@ h6 {
 p {
     font-size: 0.75em;
 }
-body {
-    background-image: url("../images/connectwork.png");
-    background-size: cover;
+#icon {
+    width: 50px;
+    margin-right: 30px;
 }
-.container {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-#headerbar {
-    border: 3px dashed black;
-    background-color: white;
-    margin: 0 0 10px 0;
-    padding: 40px;
-    font-family: 'Shrikhand', cursive;
-    font-size: 3em;
-    text-align: center;
-}
-#scores {
-    margin-right: 10px;
-    background-color: green;
+#header {
+    background-color: rgb(10,100,100);
     color: white;
     text-align: center;
-    vertical-align: middle;
-    padding: 20px 70px;
-    font-family: 'PT Serif', serif;
-}
-#rightSidebar {
-    margin-left: 10px;
-    background-color: green;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    padding: 20px 70px;
-    font-family: 'PT Serif', serif;
-}
-#gamescreen {
-    background-color: white;
-    height: auto;
-    padding: 30px;
-}
-#footerbar {
-    background-color: white;
-    margin: 10px 0 0 0;
-    padding: 30px;
-    font-family: 'Shrikhand', cursive;
-}
-#timer-container {
-    border: 3px dashed red;
-    padding: 20px;
-    text-align: center;
-    color: red;
-    margin-bottom: 30px;
 }
