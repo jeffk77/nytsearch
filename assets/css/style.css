@@ -26,11 +26,13 @@ p {
     width: 50px;
     margin-right: 30px;
 }
-#header {
-    background-color: rgb(10,100,100);
+.nytHeader {
     color: white;
     text-align: center;
 }
+.jumbotron {
+    background-color: rgb(10,100,100);
+}
 .card {
-    
+    margin: 25px;
 }
