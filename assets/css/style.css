@@ -1,0 +1,79 @@
+/* font-family: 'Shrikhand', cursive; */
+/* font-family: 'PT Serif', serif; */
+
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.75em;
+}
+h4 {
+    font-size: 1.5em;
+}
+h5 {
+    font-size: 1.25em;
+}
+h6 {
+    font-size: 1em;
+}
+p {
+    font-size: 0.75em;
+}
+body {
+    background-image: url("../images/connectwork.png");
+    background-size: cover;
+}
+.container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#headerbar {
+    border: 3px dashed black;
+    background-color: white;
+    margin: 0 0 10px 0;
+    padding: 40px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+#scores {
+    margin-right: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 70px;
+    font-family: 'PT Serif', serif;
+}
+#rightSidebar {
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    padding: 20px 70px;
+    font-family: 'PT Serif', serif;
+}
+#gamescreen {
+    background-color: white;
+    height: auto;
+    padding: 30px;
+}
+#footerbar {
+    background-color: white;
+    margin: 10px 0 0 0;
+    padding: 30px;
+    font-family: 'Shrikhand', cursive;
+}
+#timer-container {
+    border: 3px dashed red;
+    padding: 20px;
+    text-align: center;
+    color: red;
+    margin-bottom: 30px;
+}
